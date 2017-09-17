@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="Calendar.css">
+
+</head>
+<body>
+<!-- The button that shows the date when clicked-->
+<button id="month" onclick="repeatMonth()" class="month"> Click me to view the date and time</button>
+<!-- Some paragraphs that help the whole thing work-->
+<p id="date"></p>
+<p id="month"></p>
+<script>
+// to get the date 
+function month() {
+var d = new Date();
+d.setMonth(d.getMonth() + 0);
+document.getElementById("month").innerHTML = d;}
+function createEvent() {
+}
+// To make the date auto-update
+function repeatMonth() {
+  setInterval(month,100);
+}
+</script>
+<noscript> Your browser doesn't support JavaScript so you are unable to use my time program... but don't worry because you could always use <a href="https://www.google.ca/search?q=what+time+is+it&oq=what+time+is+it&aqs=chrome..69i57j0l5.5033j0j7&sourceid=chrome&ie=UTF-8"> this</a> instead...</noscript>
+</body>
+</html>
+
