@@ -1,10 +1,10 @@
 body {
   text-align:center;
-  background-color:white;
+  background-color:#c4b2bf;
 }
 .month {
-   border: 2px solid #b89de3;
-    background-color: #c3ace7;
+   border: 2px solid #bf818f;
+    background-color: #bf818a;
     border: none;
     color: white;
     padding: 15px 32px;
@@ -15,7 +15,19 @@ body {
     font-family: 'Open Sans Condensed', sans-serif;
     }
     .month:hover {
-      background-color: #b89de3;
-       border: 2px solid #ad8ede;
+      background-color: #bf818f;
+       border: 2px solid ##bf818f;
     }
-    
+.DateDisplay {
+  border: 2px solid #b89de3;
+    background-color: #81bfb1;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    }
+   

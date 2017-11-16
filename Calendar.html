@@ -24,6 +24,14 @@ function repeatMonth() {
 }
 </script>
 <noscript> Your browser doesn't support JavaScript so you are unable to use my time program... but don't worry because you could always use <a href="https://www.google.ca/search?q=what+time+is+it&oq=what+time+is+it&aqs=chrome..69i57j0l5.5033j0j7&sourceid=chrome&ie=UTF-8"> this</a> instead...</noscript>
+<div id="DateDisplay" class="DateDisplay" name="DateDisplay">
+<p style="display:inline"> Today is</p>
+<p id="demo" style="display:inline"></p>
+</div>
+<script>
+var d = new Date();
+document.getElementById("demo").innerHTML = d.toDateString();
+</script>
 </body>
 </html>
 
